@@ -36,9 +36,10 @@ namespace encapsulation
             // get {return isim; }
             // set {value = isim; }
         }
-
+        
         public string Soyisim { get => soyisim; set => soyisim = value; }
         public int OgrenciNo { get => ogrenciNo; set => ogrenciNo = value; }
+        
         public int Sinif 
         {
             get => sinif;
@@ -58,10 +59,9 @@ namespace encapsulation
         {
             Isim = ısim;
             Soyisim = soyisim;
-            OgrenciNo = ogrenciNo;
-            Sinif = sinif;
+            //OgrenciNo = ogrenciNo;
+            //Sinif = sinif;
         }
-
         public Ogrenci(){}
 
         public void OgrenciBilgileriniGetir()
